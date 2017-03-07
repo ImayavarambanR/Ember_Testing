@@ -1,0 +1,78 @@
+p
+{
+	z-index: 3;
+	background-color: green;
+	color:white;
+}
+p
+{
+	background-color: pink;
+	background-color: red;
+	background-color:brown;
+}
+h1
+{
+	display:inline;
+}
+div
+{
+	display:block;
+}
+
+.test
+{
+	font-size: 20px;
+}
+.test p
+{
+	font-size:10px;
+	background-color:green;
+
+}
+.test .internal
+{
+	background-color: black;
+}
+.test p.internal
+{
+	background-color: grey;
+}
+#int
+{
+	background-color: blue;
+}
+#out
+{
+	background-color: black;
+}
+.test #out
+{
+	background-color: yellow;
+}
+.test p#out
+{
+	background-color: brown;
+}
+.test #int
+{
+	background-color: purple;
+}
+.one
+{
+	color:red;
+}
+.two
+{
+	color:brown;
+}
+.test .two
+{
+	color:yellow;
+}
+
+#trans
+{
+	width: 200px;
+	height:200px;
+	background-color:rgba(0,0,0,0.2);
+}
